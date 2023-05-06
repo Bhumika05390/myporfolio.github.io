@@ -1,0 +1,739 @@
+body{
+    background-color:#171717;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+   
+}
+header{
+    overflow: hidden;
+}
+#h1{
+    position: relative;
+    font-size: 26px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+#pr{
+    position: absolute;
+    margin-left: 350px;
+    top: 23px;
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+#navbar{
+    position: fixed;
+    top: 15px;
+    z-index: 1;
+    
+}
+#nav{
+    position: relative;
+    margin-right: 17px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 21px;
+    cursor: pointer;
+    left: 880px;
+    top:10px;
+    padding-right: 9px;
+   
+}
+#navbar :hover{
+    color: skyblue;
+}
+#img{
+    width:400px;
+    height: 400px;
+    margin-left: 750px;
+    border-radius: 200px;
+    margin-top: 80px;
+}
+#he1{
+    position: absolute;
+    top: 240px;
+    left:120px;
+    color:white;
+    font-size: 39px;
+    font-weight: 900;
+}
+#he2{
+    position: absolute;
+    top: 220px;
+    left:120px;
+    color:whitesmoke;
+    font-size: 22px;
+}
+#he3 {
+    position: absolute;
+    top: 300px;
+    left:120px;
+    color:whitesmoke;
+    font-size: 25px;
+}
+#he3 span{
+   color: skyblue; 
+}
+#pa{
+    position: absolute;
+    top: 350px;
+    left:120px;
+    color:whitesmoke;  
+    font-size: 15px;
+    word-spacing: 0.7px;
+    line-height: 23.5px;
+}
+#socialmedia{
+    position: absolute;
+    top: 480px;
+    left:120px;
+    word-spacing: 10.7px; 
+    font-size: 30px;
+}
+#socialmedia a{
+  cursor: pointer;
+  text-decoration: none; 
+  color:skyblue; 
+}
+#cv{
+    position: absolute;
+    color: whitesmoke;
+    top:540px;
+    left: 120px;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgb(24, 158, 210);
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+}
+#education{
+    position: relative;
+    top: 220px;
+    margin-bottom: 20px;
+}
+#education img{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#education h1{
+    color: aliceblue;
+    margin-left: 600px;
+}
+#p11{
+    position: absolute;
+    margin-left: 590px;
+    top: 40px;
+    color: antiquewhite;
+}
+#btech{
+    position:absolute;
+    top:120px;
+    
+}
+#btech h1{
+    left: 100px;
+}
+#c{
+    position: relative;
+    left:600px;
+    color: grey;
+}
+#ti{
+    position: absolute;
+    left:390px;
+    color: antiquewhite;
+    top:5px;
+    font-size: 18px;
+
+}
+#preh{
+    position: absolute;
+    top:280px;
+    margin-top: 10px;
+}
+#pre p{
+    position: absolute;
+    top:330px;
+}
+#pre #ti{
+    position: absolute;
+    left:390px;
+    color: antiquewhite;
+    top:280px;
+    font-size: 18px;
+}
+#pre{
+    margin-top: 20px;
+}
+#sech{
+    margin-top:60px;
+}
+#Sec #ti{
+    position: absolute;
+    left:390px;
+    color: antiquewhite;
+    top:440px;
+    font-size: 18px;
+}
+#Sec{
+    margin-bottom: 20px;
+}
+#skills{
+    position: relative;
+    top: 300px;
+    height:620px;
+}
+
+#skills h1{
+    color: aliceblue;
+    margin-left: 600px;
+}
+#skills p{
+    color: antiquewhite;
+    position: absolute;
+    margin-left: 540px;
+    top: 20px;
+
+}
+#skill{
+    position:absolute;
+    top:120px;
+}
+div h2{
+    margin-left:600px;
+    color: antiquewhite;
+    margin-bottom: 50px;
+}
+#per{
+    position: absolute;
+    top: 10px;
+}
+.details span {
+    position: relative;
+    width: 100%;
+    top: 75px;
+    left: 300px;
+    color: beige;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#span{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    top: 30px;
+    left: 990px;
+    color: beige;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.bar{
+    position: relative;
+    top:10px;
+    border-bottom: 2px solid #0d96e0;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 400px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+    top: 10px;
+   
+ 
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#react-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+    }
+} 
+#sql-bar{
+    animation: sql-fill 2s forwards;
+}
+@keyframes sql-fill{
+    100%{
+        width: 53%;
+    }
+} 
+#other-bar{
+    animation: other-fill 2s forwards;
+}
+@keyframes other-fill{
+    100%{
+        width: 67%;
+    }
+} 
+#communication-bar{
+    animation: comm-fill 2s forwards;
+}
+@keyframes comm-fill{
+    100%{
+        width: 70%;
+    }
+}
+#Projects{
+   
+    position: relative;
+    top: 280px;
+    margin-bottom: 20px; 
+}
+#prh{
+    position: relative;
+    margin-top: 30px;
+    color: whitesmoke;
+    margin-left: 600px;
+}
+#pr1{
+    position: relative;
+    margin-left: 550px;
+    color: whitesmoke;
+}
+#project-1{
+    position: relative;
+    margin-left: 160px;
+    margin-top: 30px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#prh1{
+    position: absolute;
+    margin-left: 80px;
+    color: white;
+    top: 0px;
+}
+#p{
+    position: relative;
+    margin-left: 80px;
+    height: 90px;
+    width: 100px;
+    margin-top:70px ;
+}
+#p1{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#project-2{
+    position: absolute;
+    margin-left: 560px;
+    top: 95px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#ph1{
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+#pp1{
+    position: relative;
+    margin-left: 80px;
+    height: 90px;
+    width: 100px;
+}
+#p2{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#project-3{
+    position: absolute;
+    margin-left: 950px;
+    top: 95px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#ph2{
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+#pp2{
+    position: relative;
+    margin-left: 80px;
+    height: 100px;
+    width: 150px;
+}
+#p3{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#project-4{
+    position: absolute;
+    margin-left: 160px;
+    top: 370px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#ph3{
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+#pp3{
+    position: relative;
+    margin-left: 80px;
+    height: 80px;
+    width: 120px;
+}
+#p4{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#project-5{
+    position: absolute;
+    margin-left: 560px;
+    top: 370px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#ph4{
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+#pp4{
+    position: relative;
+    margin-left: 80px;
+    height: 90px;
+    width: 130px;
+}
+#p5{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+#project-6{
+    position: absolute;
+    margin-left: 960px;
+    top: 370px;
+    background-color:black;
+    width: 270px;
+    height: 220px;
+    border-radius: 30px;
+    border:1px solid white;
+}
+#ph5{
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+#pp5{
+    position: relative;
+    margin-left: 80px;
+    height: 80px;
+    width: 130px;
+}
+#p6{
+    position: absolute;
+    color: white;
+    top:180px;
+    left: 75px;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 17px;
+}
+
+
+
+#Contact{
+    position: absolute;
+    top: 2675px;
+    width: 100%;
+    height: 580px;
+    left: 0;
+    background-color: #000;
+    margin-top: 0px;
+    }
+ 
+#cnh{
+        position: absolute;
+        left: 580px;
+        font-size: 35px;
+        color: aliceblue;
+        
+    }
+#cnp{
+    position: absolute;
+    left: 550px;
+    margin-top: 60px;
+    color: aliceblue;
+}
+ #cn{
+    position: absolute;
+    top: 100px;
+    width: 25%;
+    left: 40%;
+    height: 220px;
+    float: left;
+    font-size: 18px;
+    color: aliceblue;
+    }
+    #cn1{
+        position: absolute;
+        margin-left: 76%;
+        right: 0;
+        top:0%;
+        height: 550px;
+        margin-bottom: 70px;
+       width: 500px;
+
+    }
+    form{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        background-color:black;
+        width: 27%;
+        height: 55%;
+    }
+    #fh{
+        position: relative;
+        left: 0px;
+        margin-left: 10%;
+        top: 10px;
+        color: white;
+    }
+    #inputtype{
+        position: relative;
+        left: 35px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 20px;
+        height: 12px;
+        border: 1px solid white;
+        background-color:black ;
+        border-radius: 20px;
+        color: aliceblue;
+    
+    }
+    button{
+        position: relative;
+        left:220px;
+        padding: 7px 24px;
+        background-color:black;
+        border: 1px solid white;
+        font-size:16px ;
+        color: white;
+        border-radius: 30px;
+        top:10px;
+        cursor: pointer;
+    }
+    #i1{
+        position: absolute;
+        margin-top: 90px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #i2{
+        position: absolute;
+        margin-top: 80px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #i3{
+        position: absolute;
+        margin-top: 100px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #ad{
+        position: relative;
+        top: 88px;
+        margin-left: 195px;
+        color: aliceblue;
+    }
+    #adp{
+        position: relative;
+        top: 50px;
+        left: 190px;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    #ph{
+        position: relative;
+        top: 75px;
+        margin-left: 195px;
+        color: aliceblue;
+    }
+    #php{
+        position: relative;
+        top: 40px;
+        left: 190px;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    #em{
+        position: relative;
+        top: 96px;
+        margin-left: 195px;
+        color: aliceblue;
+    }
+    #emp{
+        position: relative;
+        top: 70px;
+        left: 190px;
+        font-size: 18px; 
+        color: aliceblue;
+    }
+    footer{
+        border-top: 1px solid grey;
+        position: absolute;
+        top: 3205px;
+        height:70px ;
+        left: 0;
+        width: 100%;
+        background-color:black;
+    }
+    #fb{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+        text-decoration: none;
+    }
+    #gh{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        margin-left: 50px;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+        text-decoration: none;
+    }
+    #ema{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        margin-left: 100px;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+        text-decoration: none;
+        color: rgb(120, 18, 120);
+    }
+    #cpy{
+        
+        position: absolute;
+        top:24px;
+        left:44%;
+        margin-top: 20px;
+        color: grey;
+      
+       
+    }
+
